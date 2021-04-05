@@ -1,0 +1,41 @@
+{
+    "desarrollo": {
+        "config_id": "desarrollo",
+        "database_config": {
+            "host": "eyJhbGciOiJIUzI1NiJ9.MTI3LjAuMC4x.PnnypIiCI1ZdtPYuPecMQaiscMYtW0sYr5v3X_9_vJ0",
+            "database": "eyJhbGciOiJIUzI1NiJ9.YWdlbmRh.QUd28_N-HvKMT9Z8W-_UsGdyweaNqStdkRl56dajVPA",
+            "user": "eyJhbGciOiJIUzI1NiJ9.cm9vdA.3Z3afvV2ndd-hWhARnpyLMuTsPHCcHoDJgll4HEdek0",
+            "password": "eyJhbGciOiJIUzI1NiJ9.Q2FsY2V0aW4xMjM.QJApgake2kOy5IUTXOLIyTP153XN2X_aq9Mg-Lu780k"
+        }
+    },
+    "pruebas": {
+        "config_id": "pruebas",
+        "database_config": {
+            "host": "HOST_QA",
+            "database": "BD_QA",
+            "user": "USR_QA",
+            "password": "PASS_QA",
+            "port": "PORT_QA",
+            "pool": {
+                "max": 20,
+                "min": 10,
+                "idleTimeoutMillis": 30000
+            }
+        }
+    },
+    "produccion": {
+        "config_id": "produccion",
+        "database_config": {
+            "host": "HOST_PROD",
+            "database": "BD_PROD",
+            "user": "USR_PROD",
+            "password": "PASS_PROD",
+            "port": "PORT_PROD",
+            "pool": {
+                "max": 20,
+                "min": 10,
+                "idleTimeoutMillis": 30000
+            }
+        }
+    }
+}

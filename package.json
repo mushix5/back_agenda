@@ -1,0 +1,20 @@
+{
+  "name": "back_agenda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "Jesus Medina Calderon",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "xpress": "^2.4.6"
+  }
+}
